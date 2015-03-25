@@ -1,0 +1,1190 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01764DA559958A905B40B3DE /* UIView+ASYPresenterSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = E82D9B781BA1033ECDD1BE65 /* UIView+ASYPresenterSupport.h */; };
+		0DCD38400A79A55FEDFCBB9B /* SBLInvocationMatchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A707DD53FFCD7FFF7E69F45 /* SBLInvocationMatchResult.m */; };
+		0EB0FC4BC2017658AEA1C89C /* SBLInvocationRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2320AA3399A2618BF4795F /* SBLInvocationRecord.m */; };
+		193B0760D2F609416E3AC4B6 /* Pods-ASYPresenterSupport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 664E1C3A720184535AB4A541 /* Pods-ASYPresenterSupport-dummy.m */; };
+		23383A726AE011B7E38CED4C /* SBLMockCore.h in Headers */ = {isa = PBXBuildFile; fileRef = CA86E4C3CFE10ADD176482CE /* SBLMockCore.h */; };
+		245F4F92CA6761DF810ACD85 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB148874C12F6DBBAFFADCD /* Pods-dummy.m */; };
+		282E51244DC6B028B4720B87 /* SBLStubbedInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = E084E22C5AF4E2425FD1F0C9 /* SBLStubbedInvocation.h */; };
+		28767F5AADD39B51F50C9934 /* SBLMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F6652D986C4C6D7459CB62 /* SBLMatcher.m */; };
+		2AF8BD3391996396044CAB29 /* SBLInvocationMatchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = B76C45D98FE738FBAC22CEFD /* SBLInvocationMatchResult.h */; };
+		2F2DDE5C46E008412AF7D638 /* SBLInvocationArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = B084E5A04CCACE99A7031C86 /* SBLInvocationArgument.m */; };
+		31A5B8A6351B88EF56E8533A /* SBLHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7912F34DA735A5000FF9BD01 /* SBLHelpers.m */; };
+		332734CE07ABCD9E24025B22 /* SBLValueLoggingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F3246EF7209533CA23E8E4 /* SBLValueLoggingHelper.m */; };
+		3C4CB4DF8156C5A7E4C5CB1C /* ESCObserversProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = A5CCC62CDD35C20C7300C2B4 /* ESCObserversProxy.h */; };
+		40EFE2FE949D61A3598A566F /* UIView+ASYPresenterSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = E059B4CF76860E15A0E39F1D /* UIView+ASYPresenterSupport.m */; };
+		40F5000D4E8E4314B47588AC /* SBLMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CAF98BC9AC3604B08ADE0B0 /* SBLMock.h */; };
+		418C9F92D8D8C0CB84AFC9FD /* SBLArgumentMatcherResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 22661D4061FD3C342949D989 /* SBLArgumentMatcherResult.h */; };
+		444A77BE588240C82EBCAD28 /* SBLTimesMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAD41D2AE50327820A71A27 /* SBLTimesMatcher.m */; };
+		4954CD680D18A55303099F58 /* ESCObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A83695F0EAE1584FDDD3006 /* ESCObservable.m */; };
+		548FC9FF36BBC2A204C13B43 /* SBLArgumentMatcherResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE48936293F2DBD90017100 /* SBLArgumentMatcherResult.m */; };
+		54ED845C4FB778EB918E52C7 /* SBLTransactionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA7766F512FB84463D4DF57 /* SBLTransactionManager.m */; };
+		59214851DB179DDF423E2863 /* SBLClassMockObjectBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C84479C5EBC2CA2B09A986B /* SBLClassMockObjectBehavior.m */; };
+		5921D4F47DC66042ECF5100A /* Pods-asciiwwdcTests-stubble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D881508EE4DAEAB72525389B /* Pods-asciiwwdcTests-stubble-dummy.m */; };
+		60D8DDB2AD39E352D9BD0C4C /* UIView+ASYPresenterSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = E82D9B781BA1033ECDD1BE65 /* UIView+ASYPresenterSupport.h */; };
+		643B5FB797F6B65F20A16F27 /* Stubble.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E224483469698B09788ED5 /* Stubble.h */; };
+		6BB80C6742BB03596E2C4631 /* SBLInvocationArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = B85C4B47422C0E8F4414DFCD /* SBLInvocationArgument.h */; };
+		71202AD73A9A38FCA049D6D3 /* UIView+ASYPresenterSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = E059B4CF76860E15A0E39F1D /* UIView+ASYPresenterSupport.m */; };
+		74EC0B777C159F7CF97290AF /* SBLVerificationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D44717EBE951EEF260DCC7 /* SBLVerificationResult.m */; };
+		784679365F9C3DCD771BF0BD /* SBLCallOrderTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E8953074A15DAEE93D72FF /* SBLCallOrderTracker.m */; };
+		7B7231BD17BBE60D33AC46F9 /* SBLTransactionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 75132E6C63437CCDF2E00928 /* SBLTransactionManager.h */; };
+		7E4BB8E679EAFFA61E49B1C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71450E446E8443446DCEC41 /* Foundation.framework */; };
+		7E5BEF58766E4F0A4C309EB7 /* SBLCallOrderTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2165DC904E044D2ED5984EB2 /* SBLCallOrderTracker.h */; };
+		7E9D86D22085B4D1A33188E0 /* SBLOrderToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 5284433C31FAAE5C7A954F06 /* SBLOrderToken.m */; };
+		81A35C3BE7933781AFD2D549 /* Pods-asciiwwdcTests-ESCObservable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFBF4FA370134E2C07F55BA /* Pods-asciiwwdcTests-ESCObservable-dummy.m */; };
+		8B0FB97DBE6B752650C6FA6E /* SBLVerificationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9FB66EC145B06BA61EB7DE /* SBLVerificationHandler.m */; };
+		93F58B656629DE1B92A86BC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71450E446E8443446DCEC41 /* Foundation.framework */; };
+		941536124FBAE82C0EE03D98 /* SBLMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BF96DFB2A18533893D9ED29E /* SBLMockObject.h */; };
+		9472CBD8C226C5D8124F14C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71450E446E8443446DCEC41 /* Foundation.framework */; };
+		98C802F4FECFAAB5AAAB27DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71450E446E8443446DCEC41 /* Foundation.framework */; };
+		9C56D829CDD55B25939CC3EE /* SBLClassMockObjectBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = 3238357BFF94E7F29F51CC70 /* SBLClassMockObjectBehavior.h */; };
+		9E3508FC4362A1C8A4903CBE /* ESCObserversProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1918CB9BE329C5827D90C1A /* ESCObserversProxy.m */; };
+		A109DD6233EDCEC893F7D767 /* SBLInvocationRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A6C146489479D87C8364BD /* SBLInvocationRecord.h */; };
+		A124BF0334DB57C9857DB3BA /* SBLStubbedInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE3A32771DB928E32CE579 /* SBLStubbedInvocation.m */; };
+		A58B13192FD15A7D834B0FD6 /* SBLMockObjectBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = A1160762E43919452788E51A /* SBLMockObjectBehavior.h */; };
+		A5DB75B1D59BE8ABBC3C3EC4 /* SBLProtocolMockObjectBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = 83EB496E70C0D7B44FC073F7 /* SBLProtocolMockObjectBehavior.h */; };
+		A6DB5253E5B81C3CAAEEF6E1 /* ESCObservable.h in Headers */ = {isa = PBXBuildFile; fileRef = F434D4113D0DB297C7AC5668 /* ESCObservable.h */; };
+		AB660E4FF16C47FBDE5F9247 /* Pods-asciiwwdcTests-ASYPresenterSupport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A9E6DA385FF6B32D7D9F1 /* Pods-asciiwwdcTests-ASYPresenterSupport-dummy.m */; };
+		ADC39C1656B2DB073B7797C0 /* ESCObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A83695F0EAE1584FDDD3006 /* ESCObservable.m */; };
+		AE37EE39F2AB1E557A52B5D1 /* SBLOrderTokenInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 451B64CDF3A691909921B94C /* SBLOrderTokenInternal.h */; };
+		B9FEBDC08027AF69B3AD0B14 /* SBLOrderTokenInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 655452A260DE19F60AE79FD9 /* SBLOrderTokenInternal.m */; };
+		BD1F0B67243A0DAD77CF34E1 /* SBLOrderToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 5656D96F7164B6BC10C8DEB3 /* SBLOrderToken.h */; };
+		C1BA27B16A98C11005DCF348 /* SBLHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C31AE65A3865ABE589D9A87 /* SBLHelpers.h */; };
+		C41F418F19291B3E4A61FDDF /* Pods-ESCObservable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 319B82F328EA1DBE33BC9D87 /* Pods-ESCObservable-dummy.m */; };
+		CB0B797AE767DB2C5C6EBC8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71450E446E8443446DCEC41 /* Foundation.framework */; };
+		CF6F70603D5BFC94866BF2E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71450E446E8443446DCEC41 /* Foundation.framework */; };
+		DA4EFA166BC7AD8A0D42D2AD /* SBLErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = E60437657A2B5BF86D279137 /* SBLErrors.h */; };
+		DCE43FD8D432CD22E52D5BED /* SBLMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B94029C2B384351662B308 /* SBLMatcher.h */; };
+		E39398AA73FE1EA36DF37D90 /* ESCObserversProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = A5CCC62CDD35C20C7300C2B4 /* ESCObserversProxy.h */; };
+		E3E24F787BADCB34D7704509 /* Pods-asciiwwdcTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6101AC867EF124B9EB3034E8 /* Pods-asciiwwdcTests-dummy.m */; };
+		E8F11C297FC6A3C9848D8D50 /* SBLTimesMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FFEF1FBE9570E7E885E3A2E /* SBLTimesMatcher.h */; };
+		EB24AFE59E0F8285AF684514 /* ESCObserversProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1918CB9BE329C5827D90C1A /* ESCObserversProxy.m */; };
+		ED504C8C8BA0967CA73CC9F7 /* SBLProtocolMockObjectBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C8B33B6932EB875D0A6313 /* SBLProtocolMockObjectBehavior.m */; };
+		EE305FDCF6A05257EA80EAD7 /* SBLVerificationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AC220B0753FB3C3F2D06AB4 /* SBLVerificationHandler.h */; };
+		EEB9920D08604EDE2A4A4128 /* SBLMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B207AAD4AF550B6FA301B300 /* SBLMockObject.m */; };
+		F0054353DAAB387E31D3B980 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71450E446E8443446DCEC41 /* Foundation.framework */; };
+		F18958E9C74000AC294DB63D /* SBLVerificationResult.h in Headers */ = {isa = PBXBuildFile; fileRef = CBFE4B45E4142FF3A28E1B6E /* SBLVerificationResult.h */; };
+		F4987E5CE1DB086CC502D473 /* SBLValueLoggingHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1182731382765A93436A1EC3 /* SBLValueLoggingHelper.h */; };
+		F6FDF3DD510FCE8AA829C2DD /* ESCObservable.h in Headers */ = {isa = PBXBuildFile; fileRef = F434D4113D0DB297C7AC5668 /* ESCObservable.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52402AD0519A17AA511F8EF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DDA2A63E876796BF09BE324 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D745ED53117E077DD4D6611;
+			remoteInfo = "Pods-asciiwwdcTests-ASYPresenterSupport";
+		};
+		53B3152E51C7B8442910CFEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DDA2A63E876796BF09BE324 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32D31C2C12414378C030CDE0;
+			remoteInfo = "Pods-asciiwwdcTests-stubble";
+		};
+		8A2E9D981C6B12CDFD40F281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DDA2A63E876796BF09BE324 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F00BD22E31B52D5EFCCE9E0;
+			remoteInfo = "Pods-asciiwwdcTests-ESCObservable";
+		};
+		ADA3113761EA16812C856EED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DDA2A63E876796BF09BE324 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4837792D3C24F705DD61B83D;
+			remoteInfo = "Pods-ESCObservable";
+		};
+		F61A2344A90273ED0526F1AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DDA2A63E876796BF09BE324 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A08DDFC184B438C0EFF1FAB9;
+			remoteInfo = "Pods-ASYPresenterSupport";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C31AE65A3865ABE589D9A87 /* SBLHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLHelpers.h; path = Stubble/SBLHelpers.h; sourceTree = "<group>"; };
+		0C976A93DD060FCD891C822B /* Pods-asciiwwdcTests-ESCObservable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-asciiwwdcTests-ESCObservable-prefix.pch"; path = "../Pods-asciiwwdcTests-ESCObservable/Pods-asciiwwdcTests-ESCObservable-prefix.pch"; sourceTree = "<group>"; };
+		0CAF98BC9AC3604B08ADE0B0 /* SBLMock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLMock.h; path = Stubble/SBLMock.h; sourceTree = "<group>"; };
+		1086C4A2AF01A1F199CAF1C6 /* Pods-ASYPresenterSupport.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASYPresenterSupport.xcconfig"; sourceTree = "<group>"; };
+		114DDCFE5F084BD1A25C7B1E /* Pods-ESCObservable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESCObservable.xcconfig"; sourceTree = "<group>"; };
+		1182731382765A93436A1EC3 /* SBLValueLoggingHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLValueLoggingHelper.h; path = Stubble/SBLValueLoggingHelper.h; sourceTree = "<group>"; };
+		11E8780F88E21687E75638E2 /* libPods-ESCObservable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ESCObservable.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E8953074A15DAEE93D72FF /* SBLCallOrderTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBLCallOrderTracker.m; path = Stubble/SBLCallOrderTracker.m; sourceTree = "<group>"; };
+		16C8B33B6932EB875D0A6313 /* SBLProtocolMockObjectBehavior.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBLProtocolMockObjectBehavior.m; path = Stubble/SBLProtocolMockObjectBehavior.m; sourceTree = "<group>"; };
+		1B623809BBC50B5A3FC05DB5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		1FE48936293F2DBD90017100 /* SBLArgumentMatcherResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBLArgumentMatcherResult.m; path = Stubble/SBLArgumentMatcherResult.m; sourceTree = "<group>"; };
+		2165DC904E044D2ED5984EB2 /* SBLCallOrderTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLCallOrderTracker.h; path = Stubble/SBLCallOrderTracker.h; sourceTree = "<group>"; };
+		22661D4061FD3C342949D989 /* SBLArgumentMatcherResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLArgumentMatcherResult.h; path = Stubble/SBLArgumentMatcherResult.h; sourceTree = "<group>"; };
+		22E224483469698B09788ED5 /* Stubble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Stubble.h; path = Stubble/Stubble.h; sourceTree = "<group>"; };
+		281539E2FA477B2AA3DE48D5 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2FFEF1FBE9570E7E885E3A2E /* SBLTimesMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLTimesMatcher.h; path = Stubble/SBLTimesMatcher.h; sourceTree = "<group>"; };
+		319B82F328EA1DBE33BC9D87 /* Pods-ESCObservable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ESCObservable-dummy.m"; sourceTree = "<group>"; };
+		3238357BFF94E7F29F51CC70 /* SBLClassMockObjectBehavior.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLClassMockObjectBehavior.h; path = Stubble/SBLClassMockObjectBehavior.h; sourceTree = "<group>"; };
+		3A707DD53FFCD7FFF7E69F45 /* SBLInvocationMatchResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBLInvocationMatchResult.m; path = Stubble/SBLInvocationMatchResult.m; sourceTree = "<group>"; };
+		3D4A9E6DA385FF6B32D7D9F1 /* Pods-asciiwwdcTests-ASYPresenterSupport-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-asciiwwdcTests-ASYPresenterSupport-dummy.m"; path = "../Pods-asciiwwdcTests-ASYPresenterSupport/Pods-asciiwwdcTests-ASYPresenterSupport-dummy.m"; sourceTree = "<group>"; };
+		3EAA2DB534EFDAFB35137AAC /* Pods-ASYPresenterSupport-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASYPresenterSupport-Private.xcconfig"; sourceTree = "<group>"; };
+		41C5BF138C01922EB59BBBA5 /* libPods-asciiwwdcTests-stubble.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-asciiwwdcTests-stubble.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B94029C2B384351662B308 /* SBLMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLMatcher.h; path = Stubble/SBLMatcher.h; sourceTree = "<group>"; };
+		451B64CDF3A691909921B94C /* SBLOrderTokenInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLOrderTokenInternal.h; path = Stubble/SBLOrderTokenInternal.h; sourceTree = "<group>"; };
+		4653C5B4E81A403BABE474D9 /* Pods-asciiwwdcTests-ESCObservable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asciiwwdcTests-ESCObservable.xcconfig"; path = "../Pods-asciiwwdcTests-ESCObservable/Pods-asciiwwdcTests-ESCObservable.xcconfig"; sourceTree = "<group>"; };
+		48BC532BC65B21EB644B791E /* Pods-asciiwwdcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-asciiwwdcTests.release.xcconfig"; sourceTree = "<group>"; };
+		49CB3BF61273BE976006F7F8 /* Pods-ESCObservable-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESCObservable-Private.xcconfig"; sourceTree = "<group>"; };
+		4DDE3A32771DB928E32CE579 /* SBLStubbedInvocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBLStubbedInvocation.m; path = Stubble/SBLStubbedInvocation.m; sourceTree = "<group>"; };
+		5284433C31FAAE5C7A954F06 /* SBLOrderToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBLOrderToken.m; path = Stubble/SBLOrderToken.m; sourceTree = "<group>"; };
+		5412F9A5456059434578EB48 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5656D96F7164B6BC10C8DEB3 /* SBLOrderToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLOrderToken.h; path = Stubble/SBLOrderToken.h; sourceTree = "<group>"; };
+		60D080261E78C9C2B438EE59 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		6101AC867EF124B9EB3034E8 /* Pods-asciiwwdcTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-asciiwwdcTests-dummy.m"; sourceTree = "<group>"; };
+		655452A260DE19F60AE79FD9 /* SBLOrderTokenInternal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBLOrderTokenInternal.m; path = Stubble/SBLOrderTokenInternal.m; sourceTree = "<group>"; };
+		664E1C3A720184535AB4A541 /* Pods-ASYPresenterSupport-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASYPresenterSupport-dummy.m"; sourceTree = "<group>"; };
+		69712F610476623BB877565F /* Pods-asciiwwdcTests-stubble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-asciiwwdcTests-stubble-prefix.pch"; sourceTree = "<group>"; };
+		69F6652D986C4C6D7459CB62 /* SBLMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBLMatcher.m; path = Stubble/SBLMatcher.m; sourceTree = "<group>"; };
+		6CD22D81A5B976DBADCE1B59 /* Pods-asciiwwdcTests-ASYPresenterSupport-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asciiwwdcTests-ASYPresenterSupport-Private.xcconfig"; path = "../Pods-asciiwwdcTests-ASYPresenterSupport/Pods-asciiwwdcTests-ASYPresenterSupport-Private.xcconfig"; sourceTree = "<group>"; };
+		6FB148874C12F6DBBAFFADCD /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		75132E6C63437CCDF2E00928 /* SBLTransactionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLTransactionManager.h; path = Stubble/SBLTransactionManager.h; sourceTree = "<group>"; };
+		755BCEBBAFCF70640FE7EDA3 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		7912F34DA735A5000FF9BD01 /* SBLHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBLHelpers.m; path = Stubble/SBLHelpers.m; sourceTree = "<group>"; };
+		7A83695F0EAE1584FDDD3006 /* ESCObservable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESCObservable.m; path = ESCObservable/ESCObservable.m; sourceTree = "<group>"; };
+		7AC220B0753FB3C3F2D06AB4 /* SBLVerificationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLVerificationHandler.h; path = Stubble/SBLVerificationHandler.h; sourceTree = "<group>"; };
+		7BF094C2CC132E1511556ED3 /* Pods-asciiwwdcTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-asciiwwdcTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C84479C5EBC2CA2B09A986B /* SBLClassMockObjectBehavior.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBLClassMockObjectBehavior.m; path = Stubble/SBLClassMockObjectBehavior.m; sourceTree = "<group>"; };
+		83EB496E70C0D7B44FC073F7 /* SBLProtocolMockObjectBehavior.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLProtocolMockObjectBehavior.h; path = Stubble/SBLProtocolMockObjectBehavior.h; sourceTree = "<group>"; };
+		85BCFB3FAE092A2DC665800C /* Pods-asciiwwdcTests-ASYPresenterSupport.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asciiwwdcTests-ASYPresenterSupport.xcconfig"; path = "../Pods-asciiwwdcTests-ASYPresenterSupport/Pods-asciiwwdcTests-ASYPresenterSupport.xcconfig"; sourceTree = "<group>"; };
+		89496FE94B96BD7DA89425CA /* Pods-asciiwwdcTests-ESCObservable-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asciiwwdcTests-ESCObservable-Private.xcconfig"; path = "../Pods-asciiwwdcTests-ESCObservable/Pods-asciiwwdcTests-ESCObservable-Private.xcconfig"; sourceTree = "<group>"; };
+		8FFBF4FA370134E2C07F55BA /* Pods-asciiwwdcTests-ESCObservable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-asciiwwdcTests-ESCObservable-dummy.m"; path = "../Pods-asciiwwdcTests-ESCObservable/Pods-asciiwwdcTests-ESCObservable-dummy.m"; sourceTree = "<group>"; };
+		9E1638731BD0ACE47C0E4DF6 /* Pods-asciiwwdcTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-asciiwwdcTests-environment.h"; sourceTree = "<group>"; };
+		9E2E947630012DC1E5C4B424 /* libPods-asciiwwdcTests-ASYPresenterSupport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-asciiwwdcTests-ASYPresenterSupport.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1160762E43919452788E51A /* SBLMockObjectBehavior.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLMockObjectBehavior.h; path = Stubble/SBLMockObjectBehavior.h; sourceTree = "<group>"; };
+		A41B8DEB54ACFA901CB83500 /* Pods-asciiwwdcTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-asciiwwdcTests-resources.sh"; sourceTree = "<group>"; };
+		A5CCC62CDD35C20C7300C2B4 /* ESCObserversProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESCObserversProxy.h; path = ESCObservable/ESCObserversProxy.h; sourceTree = "<group>"; };
+		A93E194E4B664CE7503A7B51 /* Pods-asciiwwdcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-asciiwwdcTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B084E5A04CCACE99A7031C86 /* SBLInvocationArgument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBLInvocationArgument.m; path = Stubble/SBLInvocationArgument.m; sourceTree = "<group>"; };
+		B207AAD4AF550B6FA301B300 /* SBLMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBLMockObject.m; path = Stubble/SBLMockObject.m; sourceTree = "<group>"; };
+		B76C45D98FE738FBAC22CEFD /* SBLInvocationMatchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLInvocationMatchResult.h; path = Stubble/SBLInvocationMatchResult.h; sourceTree = "<group>"; };
+		B85C4B47422C0E8F4414DFCD /* SBLInvocationArgument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLInvocationArgument.h; path = Stubble/SBLInvocationArgument.h; sourceTree = "<group>"; };
+		B8D44717EBE951EEF260DCC7 /* SBLVerificationResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBLVerificationResult.m; path = Stubble/SBLVerificationResult.m; sourceTree = "<group>"; };
+		BC9FB66EC145B06BA61EB7DE /* SBLVerificationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBLVerificationHandler.m; path = Stubble/SBLVerificationHandler.m; sourceTree = "<group>"; };
+		BF96DFB2A18533893D9ED29E /* SBLMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLMockObject.h; path = Stubble/SBLMockObject.h; sourceTree = "<group>"; };
+		C2A6C146489479D87C8364BD /* SBLInvocationRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLInvocationRecord.h; path = Stubble/SBLInvocationRecord.h; sourceTree = "<group>"; };
+		C3704F1FD7E0A5C8F7DF9B11 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		CA86E4C3CFE10ADD176482CE /* SBLMockCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLMockCore.h; path = Stubble/SBLMockCore.h; sourceTree = "<group>"; };
+		CBFE4B45E4142FF3A28E1B6E /* SBLVerificationResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLVerificationResult.h; path = Stubble/SBLVerificationResult.h; sourceTree = "<group>"; };
+		CC35FEF003C5FC16D4FBF08F /* Pods-ESCObservable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ESCObservable-prefix.pch"; sourceTree = "<group>"; };
+		CDF09B881641CE157A0DBB73 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF2320AA3399A2618BF4795F /* SBLInvocationRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBLInvocationRecord.m; path = Stubble/SBLInvocationRecord.m; sourceTree = "<group>"; };
+		D41B0047CD561852E066CF00 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D881508EE4DAEAB72525389B /* Pods-asciiwwdcTests-stubble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-asciiwwdcTests-stubble-dummy.m"; sourceTree = "<group>"; };
+		DC89149BE434782D351967DE /* libPods-asciiwwdcTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-asciiwwdcTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAD41D2AE50327820A71A27 /* SBLTimesMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBLTimesMatcher.m; path = Stubble/SBLTimesMatcher.m; sourceTree = "<group>"; };
+		DEB15E75A639924F4550ED14 /* Pods-asciiwwdcTests-stubble-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-asciiwwdcTests-stubble-Private.xcconfig"; sourceTree = "<group>"; };
+		DEC12A1C5AD9D1662AC279DF /* libPods-asciiwwdcTests-ESCObservable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-asciiwwdcTests-ESCObservable.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E059B4CF76860E15A0E39F1D /* UIView+ASYPresenterSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ASYPresenterSupport.m"; path = "ASYPresenterSupport/UIView+ASYPresenterSupport.m"; sourceTree = "<group>"; };
+		E084E22C5AF4E2425FD1F0C9 /* SBLStubbedInvocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLStubbedInvocation.h; path = Stubble/SBLStubbedInvocation.h; sourceTree = "<group>"; };
+		E1918CB9BE329C5827D90C1A /* ESCObserversProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ESCObserversProxy.m; path = ESCObservable/ESCObserversProxy.m; sourceTree = "<group>"; };
+		E2BE8CE2938EEEF2F2DE2D5F /* Pods-asciiwwdcTests-ASYPresenterSupport-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-asciiwwdcTests-ASYPresenterSupport-prefix.pch"; path = "../Pods-asciiwwdcTests-ASYPresenterSupport/Pods-asciiwwdcTests-ASYPresenterSupport-prefix.pch"; sourceTree = "<group>"; };
+		E60437657A2B5BF86D279137 /* SBLErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBLErrors.h; path = Stubble/SBLErrors.h; sourceTree = "<group>"; };
+		E71450E446E8443446DCEC41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E7299AD9FEDDF2332C12F9DD /* Pods-asciiwwdcTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-asciiwwdcTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E82D9B781BA1033ECDD1BE65 /* UIView+ASYPresenterSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ASYPresenterSupport.h"; path = "ASYPresenterSupport/UIView+ASYPresenterSupport.h"; sourceTree = "<group>"; };
+		EBA7766F512FB84463D4DF57 /* SBLTransactionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBLTransactionManager.m; path = Stubble/SBLTransactionManager.m; sourceTree = "<group>"; };
+		EF9735BF832B122DEA583578 /* Pods-asciiwwdcTests-stubble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-asciiwwdcTests-stubble.xcconfig"; sourceTree = "<group>"; };
+		F434D4113D0DB297C7AC5668 /* ESCObservable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESCObservable.h; path = ESCObservable/ESCObservable.h; sourceTree = "<group>"; };
+		F60BB62252F0E6DF90AAD046 /* Pods-ASYPresenterSupport-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASYPresenterSupport-prefix.pch"; sourceTree = "<group>"; };
+		F7F3246EF7209533CA23E8E4 /* SBLValueLoggingHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBLValueLoggingHelper.m; path = Stubble/SBLValueLoggingHelper.m; sourceTree = "<group>"; };
+		FC47FCCB0C80B72CBBE876A0 /* libPods-ASYPresenterSupport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASYPresenterSupport.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		021B64681A311EF18A1FFA4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F58B656629DE1B92A86BC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB21912513AA91B54645C65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6F70603D5BFC94866BF2E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86BCA9B131D49DBC28B72650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C802F4FECFAAB5AAAB27DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CD5AA5A1ADBE7A1DA68956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4BB8E679EAFFA61E49B1C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCF344A713FFB8DB6BEC330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9472CBD8C226C5D8124F14C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C14CC86F82505B39188E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0054353DAAB387E31D3B980 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7941BF89AFA71F19B0C646F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0B797AE767DB2C5C6EBC8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		073CDB2DCE5E712C4742C704 = {
+			isa = PBXGroup;
+			children = (
+				281539E2FA477B2AA3DE48D5 /* Podfile */,
+				15D04A692712EE4EB0837C36 /* Frameworks */,
+				73E072F3DB5DED03268F8C20 /* Pods */,
+				0A0D0DF9E41265C3C67C2EE8 /* Products */,
+				490FFC305658AB7E96DBCE8F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		0A0D0DF9E41265C3C67C2EE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5412F9A5456059434578EB48 /* libPods.a */,
+				FC47FCCB0C80B72CBBE876A0 /* libPods-ASYPresenterSupport.a */,
+				11E8780F88E21687E75638E2 /* libPods-ESCObservable.a */,
+				DC89149BE434782D351967DE /* libPods-asciiwwdcTests.a */,
+				9E2E947630012DC1E5C4B424 /* libPods-asciiwwdcTests-ASYPresenterSupport.a */,
+				DEC12A1C5AD9D1662AC279DF /* libPods-asciiwwdcTests-ESCObservable.a */,
+				41C5BF138C01922EB59BBBA5 /* libPods-asciiwwdcTests-stubble.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15D04A692712EE4EB0837C36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EF61322329F07ABD1A8F25D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DF83E91E5C62F1E8E3ED21E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				114DDCFE5F084BD1A25C7B1E /* Pods-ESCObservable.xcconfig */,
+				49CB3BF61273BE976006F7F8 /* Pods-ESCObservable-Private.xcconfig */,
+				319B82F328EA1DBE33BC9D87 /* Pods-ESCObservable-dummy.m */,
+				CC35FEF003C5FC16D4FBF08F /* Pods-ESCObservable-prefix.pch */,
+				4653C5B4E81A403BABE474D9 /* Pods-asciiwwdcTests-ESCObservable.xcconfig */,
+				89496FE94B96BD7DA89425CA /* Pods-asciiwwdcTests-ESCObservable-Private.xcconfig */,
+				8FFBF4FA370134E2C07F55BA /* Pods-asciiwwdcTests-ESCObservable-dummy.m */,
+				0C976A93DD060FCD891C822B /* Pods-asciiwwdcTests-ESCObservable-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-ESCObservable";
+			sourceTree = "<group>";
+		};
+		490FFC305658AB7E96DBCE8F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7AA7F41C8244091C170D642 /* Pods */,
+				5C9384FCA7C11CE9838B8A45 /* Pods-asciiwwdcTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5C9384FCA7C11CE9838B8A45 /* Pods-asciiwwdcTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7299AD9FEDDF2332C12F9DD /* Pods-asciiwwdcTests-acknowledgements.markdown */,
+				7BF094C2CC132E1511556ED3 /* Pods-asciiwwdcTests-acknowledgements.plist */,
+				6101AC867EF124B9EB3034E8 /* Pods-asciiwwdcTests-dummy.m */,
+				9E1638731BD0ACE47C0E4DF6 /* Pods-asciiwwdcTests-environment.h */,
+				A41B8DEB54ACFA901CB83500 /* Pods-asciiwwdcTests-resources.sh */,
+				A93E194E4B664CE7503A7B51 /* Pods-asciiwwdcTests.debug.xcconfig */,
+				48BC532BC65B21EB644B791E /* Pods-asciiwwdcTests.release.xcconfig */,
+			);
+			name = "Pods-asciiwwdcTests";
+			path = "Target Support Files/Pods-asciiwwdcTests";
+			sourceTree = "<group>";
+		};
+		5D81CB54FE39B761EA7D650C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF9735BF832B122DEA583578 /* Pods-asciiwwdcTests-stubble.xcconfig */,
+				DEB15E75A639924F4550ED14 /* Pods-asciiwwdcTests-stubble-Private.xcconfig */,
+				D881508EE4DAEAB72525389B /* Pods-asciiwwdcTests-stubble-dummy.m */,
+				69712F610476623BB877565F /* Pods-asciiwwdcTests-stubble-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-asciiwwdcTests-stubble";
+			sourceTree = "<group>";
+		};
+		73E072F3DB5DED03268F8C20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D79928D9D9B7580A37271E93 /* ASYPresenterSupport */,
+				F183F8731552FD746FB8F625 /* ESCObservable */,
+				F3B9C4536927C5319267008C /* stubble */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7EF61322329F07ABD1A8F25D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E71450E446E8443446DCEC41 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		896AEAEF14CD23C1143FFD11 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1086C4A2AF01A1F199CAF1C6 /* Pods-ASYPresenterSupport.xcconfig */,
+				3EAA2DB534EFDAFB35137AAC /* Pods-ASYPresenterSupport-Private.xcconfig */,
+				664E1C3A720184535AB4A541 /* Pods-ASYPresenterSupport-dummy.m */,
+				F60BB62252F0E6DF90AAD046 /* Pods-ASYPresenterSupport-prefix.pch */,
+				85BCFB3FAE092A2DC665800C /* Pods-asciiwwdcTests-ASYPresenterSupport.xcconfig */,
+				6CD22D81A5B976DBADCE1B59 /* Pods-asciiwwdcTests-ASYPresenterSupport-Private.xcconfig */,
+				3D4A9E6DA385FF6B32D7D9F1 /* Pods-asciiwwdcTests-ASYPresenterSupport-dummy.m */,
+				E2BE8CE2938EEEF2F2DE2D5F /* Pods-asciiwwdcTests-ASYPresenterSupport-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-ASYPresenterSupport";
+			sourceTree = "<group>";
+		};
+		D79928D9D9B7580A37271E93 /* ASYPresenterSupport */ = {
+			isa = PBXGroup;
+			children = (
+				E82D9B781BA1033ECDD1BE65 /* UIView+ASYPresenterSupport.h */,
+				E059B4CF76860E15A0E39F1D /* UIView+ASYPresenterSupport.m */,
+				896AEAEF14CD23C1143FFD11 /* Support Files */,
+			);
+			path = ASYPresenterSupport;
+			sourceTree = "<group>";
+		};
+		D7AA7F41C8244091C170D642 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D41B0047CD561852E066CF00 /* Pods-acknowledgements.markdown */,
+				CDF09B881641CE157A0DBB73 /* Pods-acknowledgements.plist */,
+				6FB148874C12F6DBBAFFADCD /* Pods-dummy.m */,
+				60D080261E78C9C2B438EE59 /* Pods-environment.h */,
+				755BCEBBAFCF70640FE7EDA3 /* Pods-resources.sh */,
+				1B623809BBC50B5A3FC05DB5 /* Pods.debug.xcconfig */,
+				C3704F1FD7E0A5C8F7DF9B11 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		F183F8731552FD746FB8F625 /* ESCObservable */ = {
+			isa = PBXGroup;
+			children = (
+				F434D4113D0DB297C7AC5668 /* ESCObservable.h */,
+				7A83695F0EAE1584FDDD3006 /* ESCObservable.m */,
+				A5CCC62CDD35C20C7300C2B4 /* ESCObserversProxy.h */,
+				E1918CB9BE329C5827D90C1A /* ESCObserversProxy.m */,
+				1DF83E91E5C62F1E8E3ED21E /* Support Files */,
+			);
+			path = ESCObservable;
+			sourceTree = "<group>";
+		};
+		F3B9C4536927C5319267008C /* stubble */ = {
+			isa = PBXGroup;
+			children = (
+				22661D4061FD3C342949D989 /* SBLArgumentMatcherResult.h */,
+				1FE48936293F2DBD90017100 /* SBLArgumentMatcherResult.m */,
+				2165DC904E044D2ED5984EB2 /* SBLCallOrderTracker.h */,
+				14E8953074A15DAEE93D72FF /* SBLCallOrderTracker.m */,
+				3238357BFF94E7F29F51CC70 /* SBLClassMockObjectBehavior.h */,
+				7C84479C5EBC2CA2B09A986B /* SBLClassMockObjectBehavior.m */,
+				E60437657A2B5BF86D279137 /* SBLErrors.h */,
+				0C31AE65A3865ABE589D9A87 /* SBLHelpers.h */,
+				7912F34DA735A5000FF9BD01 /* SBLHelpers.m */,
+				B85C4B47422C0E8F4414DFCD /* SBLInvocationArgument.h */,
+				B084E5A04CCACE99A7031C86 /* SBLInvocationArgument.m */,
+				B76C45D98FE738FBAC22CEFD /* SBLInvocationMatchResult.h */,
+				3A707DD53FFCD7FFF7E69F45 /* SBLInvocationMatchResult.m */,
+				C2A6C146489479D87C8364BD /* SBLInvocationRecord.h */,
+				CF2320AA3399A2618BF4795F /* SBLInvocationRecord.m */,
+				43B94029C2B384351662B308 /* SBLMatcher.h */,
+				69F6652D986C4C6D7459CB62 /* SBLMatcher.m */,
+				0CAF98BC9AC3604B08ADE0B0 /* SBLMock.h */,
+				CA86E4C3CFE10ADD176482CE /* SBLMockCore.h */,
+				BF96DFB2A18533893D9ED29E /* SBLMockObject.h */,
+				B207AAD4AF550B6FA301B300 /* SBLMockObject.m */,
+				A1160762E43919452788E51A /* SBLMockObjectBehavior.h */,
+				5656D96F7164B6BC10C8DEB3 /* SBLOrderToken.h */,
+				5284433C31FAAE5C7A954F06 /* SBLOrderToken.m */,
+				451B64CDF3A691909921B94C /* SBLOrderTokenInternal.h */,
+				655452A260DE19F60AE79FD9 /* SBLOrderTokenInternal.m */,
+				83EB496E70C0D7B44FC073F7 /* SBLProtocolMockObjectBehavior.h */,
+				16C8B33B6932EB875D0A6313 /* SBLProtocolMockObjectBehavior.m */,
+				E084E22C5AF4E2425FD1F0C9 /* SBLStubbedInvocation.h */,
+				4DDE3A32771DB928E32CE579 /* SBLStubbedInvocation.m */,
+				2FFEF1FBE9570E7E885E3A2E /* SBLTimesMatcher.h */,
+				DEAD41D2AE50327820A71A27 /* SBLTimesMatcher.m */,
+				75132E6C63437CCDF2E00928 /* SBLTransactionManager.h */,
+				EBA7766F512FB84463D4DF57 /* SBLTransactionManager.m */,
+				1182731382765A93436A1EC3 /* SBLValueLoggingHelper.h */,
+				F7F3246EF7209533CA23E8E4 /* SBLValueLoggingHelper.m */,
+				7AC220B0753FB3C3F2D06AB4 /* SBLVerificationHandler.h */,
+				BC9FB66EC145B06BA61EB7DE /* SBLVerificationHandler.m */,
+				CBFE4B45E4142FF3A28E1B6E /* SBLVerificationResult.h */,
+				B8D44717EBE951EEF260DCC7 /* SBLVerificationResult.m */,
+				22E224483469698B09788ED5 /* Stubble.h */,
+				5D81CB54FE39B761EA7D650C /* Support Files */,
+			);
+			path = stubble;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BEE254227DE17E9CA911670 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6FDF3DD510FCE8AA829C2DD /* ESCObservable.h in Headers */,
+				3C4CB4DF8156C5A7E4C5CB1C /* ESCObserversProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D387D91D9D1047ED6C6051 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D8DDB2AD39E352D9BD0C4C /* UIView+ASYPresenterSupport.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		443E890130FE891A0C7672E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418C9F92D8D8C0CB84AFC9FD /* SBLArgumentMatcherResult.h in Headers */,
+				7E5BEF58766E4F0A4C309EB7 /* SBLCallOrderTracker.h in Headers */,
+				9C56D829CDD55B25939CC3EE /* SBLClassMockObjectBehavior.h in Headers */,
+				DA4EFA166BC7AD8A0D42D2AD /* SBLErrors.h in Headers */,
+				C1BA27B16A98C11005DCF348 /* SBLHelpers.h in Headers */,
+				6BB80C6742BB03596E2C4631 /* SBLInvocationArgument.h in Headers */,
+				2AF8BD3391996396044CAB29 /* SBLInvocationMatchResult.h in Headers */,
+				A109DD6233EDCEC893F7D767 /* SBLInvocationRecord.h in Headers */,
+				DCE43FD8D432CD22E52D5BED /* SBLMatcher.h in Headers */,
+				40F5000D4E8E4314B47588AC /* SBLMock.h in Headers */,
+				23383A726AE011B7E38CED4C /* SBLMockCore.h in Headers */,
+				941536124FBAE82C0EE03D98 /* SBLMockObject.h in Headers */,
+				A58B13192FD15A7D834B0FD6 /* SBLMockObjectBehavior.h in Headers */,
+				BD1F0B67243A0DAD77CF34E1 /* SBLOrderToken.h in Headers */,
+				AE37EE39F2AB1E557A52B5D1 /* SBLOrderTokenInternal.h in Headers */,
+				A5DB75B1D59BE8ABBC3C3EC4 /* SBLProtocolMockObjectBehavior.h in Headers */,
+				282E51244DC6B028B4720B87 /* SBLStubbedInvocation.h in Headers */,
+				E8F11C297FC6A3C9848D8D50 /* SBLTimesMatcher.h in Headers */,
+				7B7231BD17BBE60D33AC46F9 /* SBLTransactionManager.h in Headers */,
+				F4987E5CE1DB086CC502D473 /* SBLValueLoggingHelper.h in Headers */,
+				EE305FDCF6A05257EA80EAD7 /* SBLVerificationHandler.h in Headers */,
+				F18958E9C74000AC294DB63D /* SBLVerificationResult.h in Headers */,
+				643B5FB797F6B65F20A16F27 /* Stubble.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67925905DD9613C79D5CEEE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DB5253E5B81C3CAAEEF6E1 /* ESCObservable.h in Headers */,
+				E39398AA73FE1EA36DF37D90 /* ESCObserversProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DED5F629B70F873064AA67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01764DA559958A905B40B3DE /* UIView+ASYPresenterSupport.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09CF35578270EC9DCE5AD355 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118817F87B25D1D297C0CCDA /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				0D9E6ED4608EFF3BE9C2AF2E /* Sources */,
+				86BCA9B131D49DBC28B72650 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				826CCABD890A46DF397FA4C7 /* PBXTargetDependency */,
+				B5104B2DC5A31884C513B0BA /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 5412F9A5456059434578EB48 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0F00BD22E31B52D5EFCCE9E0 /* Pods-asciiwwdcTests-ESCObservable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E51B11296FBD150C9D9EAA2 /* Build configuration list for PBXNativeTarget "Pods-asciiwwdcTests-ESCObservable" */;
+			buildPhases = (
+				2DAA3F965F25D7ED720374AA /* Sources */,
+				021B64681A311EF18A1FFA4B /* Frameworks */,
+				1BEE254227DE17E9CA911670 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-asciiwwdcTests-ESCObservable";
+			productName = "Pods-asciiwwdcTests-ESCObservable";
+			productReference = DEC12A1C5AD9D1662AC279DF /* libPods-asciiwwdcTests-ESCObservable.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		32D31C2C12414378C030CDE0 /* Pods-asciiwwdcTests-stubble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73DBF4238D527F7CF102F3A5 /* Build configuration list for PBXNativeTarget "Pods-asciiwwdcTests-stubble" */;
+			buildPhases = (
+				09B657A7E54E3974F58A749F /* Sources */,
+				4EB21912513AA91B54645C65 /* Frameworks */,
+				443E890130FE891A0C7672E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-asciiwwdcTests-stubble";
+			productName = "Pods-asciiwwdcTests-stubble";
+			productReference = 41C5BF138C01922EB59BBBA5 /* libPods-asciiwwdcTests-stubble.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4837792D3C24F705DD61B83D /* Pods-ESCObservable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 984595EB26FAE5E200FEC407 /* Build configuration list for PBXNativeTarget "Pods-ESCObservable" */;
+			buildPhases = (
+				966A377AEA0D06716FDB50D5 /* Sources */,
+				B6C14CC86F82505B39188E82 /* Frameworks */,
+				67925905DD9613C79D5CEEE0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ESCObservable";
+			productName = "Pods-ESCObservable";
+			productReference = 11E8780F88E21687E75638E2 /* libPods-ESCObservable.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4D745ED53117E077DD4D6611 /* Pods-asciiwwdcTests-ASYPresenterSupport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCD1B0811928ABCF0786357 /* Build configuration list for PBXNativeTarget "Pods-asciiwwdcTests-ASYPresenterSupport" */;
+			buildPhases = (
+				1AF34D524014239AC9A68363 /* Sources */,
+				C7941BF89AFA71F19B0C646F /* Frameworks */,
+				26D387D91D9D1047ED6C6051 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-asciiwwdcTests-ASYPresenterSupport";
+			productName = "Pods-asciiwwdcTests-ASYPresenterSupport";
+			productReference = 9E2E947630012DC1E5C4B424 /* libPods-asciiwwdcTests-ASYPresenterSupport.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A08DDFC184B438C0EFF1FAB9 /* Pods-ASYPresenterSupport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BDFF2B06BA58B21E08C0217 /* Build configuration list for PBXNativeTarget "Pods-ASYPresenterSupport" */;
+			buildPhases = (
+				F728464ECE584BD12027619A /* Sources */,
+				91CD5AA5A1ADBE7A1DA68956 /* Frameworks */,
+				B5DED5F629B70F873064AA67 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ASYPresenterSupport";
+			productName = "Pods-ASYPresenterSupport";
+			productReference = FC47FCCB0C80B72CBBE876A0 /* libPods-ASYPresenterSupport.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FE1619CB568AF3D7C7DAB8B4 /* Pods-asciiwwdcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E07699E10CA18185ED557982 /* Build configuration list for PBXNativeTarget "Pods-asciiwwdcTests" */;
+			buildPhases = (
+				8FFF1FC130ACA50E71A91CCA /* Sources */,
+				ACCF344A713FFB8DB6BEC330 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F5D5F54C09FE389A43F2D92 /* PBXTargetDependency */,
+				E1BF7F1D42D3D6454152FD0A /* PBXTargetDependency */,
+				E92251A28739A0425D71EF05 /* PBXTargetDependency */,
+			);
+			name = "Pods-asciiwwdcTests";
+			productName = "Pods-asciiwwdcTests";
+			productReference = DC89149BE434782D351967DE /* libPods-asciiwwdcTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DDA2A63E876796BF09BE324 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 8C84EF423903A5A8EAB24AD9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 073CDB2DCE5E712C4742C704;
+			productRefGroup = 0A0D0DF9E41265C3C67C2EE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09CF35578270EC9DCE5AD355 /* Pods */,
+				A08DDFC184B438C0EFF1FAB9 /* Pods-ASYPresenterSupport */,
+				4837792D3C24F705DD61B83D /* Pods-ESCObservable */,
+				FE1619CB568AF3D7C7DAB8B4 /* Pods-asciiwwdcTests */,
+				4D745ED53117E077DD4D6611 /* Pods-asciiwwdcTests-ASYPresenterSupport */,
+				0F00BD22E31B52D5EFCCE9E0 /* Pods-asciiwwdcTests-ESCObservable */,
+				32D31C2C12414378C030CDE0 /* Pods-asciiwwdcTests-stubble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09B657A7E54E3974F58A749F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5921D4F47DC66042ECF5100A /* Pods-asciiwwdcTests-stubble-dummy.m in Sources */,
+				548FC9FF36BBC2A204C13B43 /* SBLArgumentMatcherResult.m in Sources */,
+				784679365F9C3DCD771BF0BD /* SBLCallOrderTracker.m in Sources */,
+				59214851DB179DDF423E2863 /* SBLClassMockObjectBehavior.m in Sources */,
+				31A5B8A6351B88EF56E8533A /* SBLHelpers.m in Sources */,
+				2F2DDE5C46E008412AF7D638 /* SBLInvocationArgument.m in Sources */,
+				0DCD38400A79A55FEDFCBB9B /* SBLInvocationMatchResult.m in Sources */,
+				0EB0FC4BC2017658AEA1C89C /* SBLInvocationRecord.m in Sources */,
+				28767F5AADD39B51F50C9934 /* SBLMatcher.m in Sources */,
+				EEB9920D08604EDE2A4A4128 /* SBLMockObject.m in Sources */,
+				7E9D86D22085B4D1A33188E0 /* SBLOrderToken.m in Sources */,
+				B9FEBDC08027AF69B3AD0B14 /* SBLOrderTokenInternal.m in Sources */,
+				ED504C8C8BA0967CA73CC9F7 /* SBLProtocolMockObjectBehavior.m in Sources */,
+				A124BF0334DB57C9857DB3BA /* SBLStubbedInvocation.m in Sources */,
+				444A77BE588240C82EBCAD28 /* SBLTimesMatcher.m in Sources */,
+				54ED845C4FB778EB918E52C7 /* SBLTransactionManager.m in Sources */,
+				332734CE07ABCD9E24025B22 /* SBLValueLoggingHelper.m in Sources */,
+				8B0FB97DBE6B752650C6FA6E /* SBLVerificationHandler.m in Sources */,
+				74EC0B777C159F7CF97290AF /* SBLVerificationResult.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D9E6ED4608EFF3BE9C2AF2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245F4F92CA6761DF810ACD85 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF34D524014239AC9A68363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB660E4FF16C47FBDE5F9247 /* Pods-asciiwwdcTests-ASYPresenterSupport-dummy.m in Sources */,
+				71202AD73A9A38FCA049D6D3 /* UIView+ASYPresenterSupport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DAA3F965F25D7ED720374AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4954CD680D18A55303099F58 /* ESCObservable.m in Sources */,
+				9E3508FC4362A1C8A4903CBE /* ESCObserversProxy.m in Sources */,
+				81A35C3BE7933781AFD2D549 /* Pods-asciiwwdcTests-ESCObservable-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FFF1FC130ACA50E71A91CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E24F787BADCB34D7704509 /* Pods-asciiwwdcTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966A377AEA0D06716FDB50D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC39C1656B2DB073B7797C0 /* ESCObservable.m in Sources */,
+				EB24AFE59E0F8285AF684514 /* ESCObserversProxy.m in Sources */,
+				C41F418F19291B3E4A61FDDF /* Pods-ESCObservable-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F728464ECE584BD12027619A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193B0760D2F609416E3AC4B6 /* Pods-ASYPresenterSupport-dummy.m in Sources */,
+				40EFE2FE949D61A3598A566F /* UIView+ASYPresenterSupport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		826CCABD890A46DF397FA4C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ASYPresenterSupport";
+			target = A08DDFC184B438C0EFF1FAB9 /* Pods-ASYPresenterSupport */;
+			targetProxy = F61A2344A90273ED0526F1AB /* PBXContainerItemProxy */;
+		};
+		8F5D5F54C09FE389A43F2D92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-asciiwwdcTests-ASYPresenterSupport";
+			target = 4D745ED53117E077DD4D6611 /* Pods-asciiwwdcTests-ASYPresenterSupport */;
+			targetProxy = 52402AD0519A17AA511F8EF2 /* PBXContainerItemProxy */;
+		};
+		B5104B2DC5A31884C513B0BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ESCObservable";
+			target = 4837792D3C24F705DD61B83D /* Pods-ESCObservable */;
+			targetProxy = ADA3113761EA16812C856EED /* PBXContainerItemProxy */;
+		};
+		E1BF7F1D42D3D6454152FD0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-asciiwwdcTests-ESCObservable";
+			target = 0F00BD22E31B52D5EFCCE9E0 /* Pods-asciiwwdcTests-ESCObservable */;
+			targetProxy = 8A2E9D981C6B12CDFD40F281 /* PBXContainerItemProxy */;
+		};
+		E92251A28739A0425D71EF05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-asciiwwdcTests-stubble";
+			target = 32D31C2C12414378C030CDE0 /* Pods-asciiwwdcTests-stubble */;
+			targetProxy = 53B3152E51C7B8442910CFEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08A4893EEDA4746C815751A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		132DC5722DA0C8A46362ECAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EAA2DB534EFDAFB35137AAC /* Pods-ASYPresenterSupport-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ASYPresenterSupport/Pods-ASYPresenterSupport-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		32CBE043707CD2C30450F05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB15E75A639924F4550ED14 /* Pods-asciiwwdcTests-stubble-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-asciiwwdcTests-stubble/Pods-asciiwwdcTests-stubble-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		33F71B4055A09FC31DE0484A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49CB3BF61273BE976006F7F8 /* Pods-ESCObservable-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ESCObservable/Pods-ESCObservable-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3CD15EE5D58EDD84529F91C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3704F1FD7E0A5C8F7DF9B11 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4CB99F134251CA4BBAC76F32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93E194E4B664CE7503A7B51 /* Pods-asciiwwdcTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		56C3DF2E273B5C8122DCCD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		616630B099E23546C5A58B56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89496FE94B96BD7DA89425CA /* Pods-asciiwwdcTests-ESCObservable-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-asciiwwdcTests-ESCObservable/Pods-asciiwwdcTests-ESCObservable-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		744D2B16724B935A9EC90CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89496FE94B96BD7DA89425CA /* Pods-asciiwwdcTests-ESCObservable-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-asciiwwdcTests-ESCObservable/Pods-asciiwwdcTests-ESCObservable-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		91D2C97431A896834B2D69E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD22D81A5B976DBADCE1B59 /* Pods-asciiwwdcTests-ASYPresenterSupport-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-asciiwwdcTests-ASYPresenterSupport/Pods-asciiwwdcTests-ASYPresenterSupport-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9E4CAF414698321B62518E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48BC532BC65B21EB644B791E /* Pods-asciiwwdcTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B9E6B6B0B6133D6F623042C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EAA2DB534EFDAFB35137AAC /* Pods-ASYPresenterSupport-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ASYPresenterSupport/Pods-ASYPresenterSupport-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BBCFBFD3F52F04B1BB6F7DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB15E75A639924F4550ED14 /* Pods-asciiwwdcTests-stubble-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-asciiwwdcTests-stubble/Pods-asciiwwdcTests-stubble-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CE3725FB85C381864576A274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD22D81A5B976DBADCE1B59 /* Pods-asciiwwdcTests-ASYPresenterSupport-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-asciiwwdcTests-ASYPresenterSupport/Pods-asciiwwdcTests-ASYPresenterSupport-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D6FF84CC909F9752C663C728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49CB3BF61273BE976006F7F8 /* Pods-ESCObservable-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ESCObservable/Pods-ESCObservable-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F436806C26E3021A732C74AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B623809BBC50B5A3FC05DB5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		118817F87B25D1D297C0CCDA /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F436806C26E3021A732C74AB /* Debug */,
+				3CD15EE5D58EDD84529F91C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BDFF2B06BA58B21E08C0217 /* Build configuration list for PBXNativeTarget "Pods-ASYPresenterSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132DC5722DA0C8A46362ECAF /* Debug */,
+				B9E6B6B0B6133D6F623042C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E51B11296FBD150C9D9EAA2 /* Build configuration list for PBXNativeTarget "Pods-asciiwwdcTests-ESCObservable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616630B099E23546C5A58B56 /* Debug */,
+				744D2B16724B935A9EC90CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73DBF4238D527F7CF102F3A5 /* Build configuration list for PBXNativeTarget "Pods-asciiwwdcTests-stubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32CBE043707CD2C30450F05D /* Debug */,
+				BBCFBFD3F52F04B1BB6F7DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C84EF423903A5A8EAB24AD9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A4893EEDA4746C815751A7 /* Debug */,
+				56C3DF2E273B5C8122DCCD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		984595EB26FAE5E200FEC407 /* Build configuration list for PBXNativeTarget "Pods-ESCObservable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F71B4055A09FC31DE0484A /* Debug */,
+				D6FF84CC909F9752C663C728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCCD1B0811928ABCF0786357 /* Build configuration list for PBXNativeTarget "Pods-asciiwwdcTests-ASYPresenterSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3725FB85C381864576A274 /* Debug */,
+				91D2C97431A896834B2D69E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E07699E10CA18185ED557982 /* Build configuration list for PBXNativeTarget "Pods-asciiwwdcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB99F134251CA4BBAC76F32 /* Debug */,
+				9E4CAF414698321B62518E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DDA2A63E876796BF09BE324 /* Project object */;
+}

@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ASYPresenterSupport" "${PODS_ROOT}/Headers/Public/ESCObservable" "${PODS_ROOT}/Headers/Public/stubble"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ASYPresenterSupport" -isystem "${PODS_ROOT}/Headers/Public/ESCObservable" -isystem "${PODS_ROOT}/Headers/Public/stubble"
+OTHER_LDFLAGS = $(inherited) -ObjC -all_load -l"Pods-ASYPresenterSupport" -l"Pods-ESCObservable"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods

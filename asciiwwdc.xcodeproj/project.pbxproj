@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F98A60E1ABFB144000EAFEF /* ASSessionSelectorModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F98A60D1ABFB144000EAFEF /* ASSessionSelectorModelTest.m */; };
+		2F98A6111ABFB4FE000EAFEF /* AWSessionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F98A6101ABFB4FE000EAFEF /* AWSessionData.m */; };
+		2F98A6121ABFB4FE000EAFEF /* AWSessionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F98A6101ABFB4FE000EAFEF /* AWSessionData.m */; };
+		2F98A6151ABFB74B000EAFEF /* AWNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F98A6141ABFB74B000EAFEF /* AWNetworkService.m */; };
+		2F98A6161ABFB74B000EAFEF /* AWNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F98A6141ABFB74B000EAFEF /* AWNetworkService.m */; };
+		2F98A6181ABFC8FD000EAFEF /* AWSessionSelectorPresenterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F98A6171ABFC8FD000EAFEF /* AWSessionSelectorPresenterTest.m */; };
+		2FF93B7F1ABF454B001DF73E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF93B7E1ABF454B001DF73E /* main.m */; };
+		2FF93B821ABF454B001DF73E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF93B811ABF454B001DF73E /* AppDelegate.m */; };
+		2FF93B851ABF454B001DF73E /* AWSessionSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF93B841ABF454B001DF73E /* AWSessionSelectorViewController.m */; };
+		2FF93B8A1ABF454B001DF73E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF93B891ABF454B001DF73E /* Images.xcassets */; };
+		2FF93B8D1ABF454B001DF73E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FF93B8B1ABF454B001DF73E /* LaunchScreen.xib */; };
+		2FF93BA81ABF4CAB001DF73E /* AWSessionSelectorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF93BA71ABF4CAB001DF73E /* AWSessionSelectorModel.m */; };
+		2FF93BA91ABF4CAB001DF73E /* AWSessionSelectorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF93BA71ABF4CAB001DF73E /* AWSessionSelectorModel.m */; };
+		2FF93BAC1ABF4CC4001DF73E /* AWSessionSelectorPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF93BAB1ABF4CC4001DF73E /* AWSessionSelectorPresenter.m */; };
+		2FF93BAD1ABF4CC4001DF73E /* AWSessionSelectorPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF93BAB1ABF4CC4001DF73E /* AWSessionSelectorPresenter.m */; };
+		2FF93BB01ABF523E001DF73E /* AWSessionSelectorDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF93BAF1ABF523E001DF73E /* AWSessionSelectorDelegate.m */; };
+		2FF93BB11ABF523E001DF73E /* AWSessionSelectorDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF93BAF1ABF523E001DF73E /* AWSessionSelectorDelegate.m */; };
+		2FF93BB41ABF52CA001DF73E /* AWSessionSelectorDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF93BB31ABF52CA001DF73E /* AWSessionSelectorDataSource.m */; };
+		2FF93BB51ABF52CA001DF73E /* AWSessionSelectorDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF93BB31ABF52CA001DF73E /* AWSessionSelectorDataSource.m */; };
+		2FF93BB81ABF5E37001DF73E /* AWSessionSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF93BB71ABF5E37001DF73E /* AWSessionSelectorCell.m */; };
+		2FF93BB91ABF5E37001DF73E /* AWSessionSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF93BB71ABF5E37001DF73E /* AWSessionSelectorCell.m */; };
+		5A271E4A544713D48B2F5053 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BF75885478728F3F797A2A /* libPods.a */; };
+		9D7F8BC383F12C2CFC975FE8 /* libPods-asciiwwdcTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D95689396B16B3961ABFE3BA /* libPods-asciiwwdcTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FF93B931ABF454B001DF73E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FF93B711ABF454B001DF73E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FF93B781ABF454B001DF73E;
+			remoteInfo = asciiwwdc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2000A8A4B47E98203A0ED15F /* Pods-asciiwwdcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asciiwwdcTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-asciiwwdcTests/Pods-asciiwwdcTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F98A60D1ABFB144000EAFEF /* ASSessionSelectorModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASSessionSelectorModelTest.m; sourceTree = "<group>"; };
+		2F98A60F1ABFB4FE000EAFEF /* AWSessionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSessionData.h; sourceTree = "<group>"; };
+		2F98A6101ABFB4FE000EAFEF /* AWSessionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSessionData.m; sourceTree = "<group>"; };
+		2F98A6131ABFB74B000EAFEF /* AWNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWNetworkService.h; sourceTree = "<group>"; };
+		2F98A6141ABFB74B000EAFEF /* AWNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWNetworkService.m; sourceTree = "<group>"; };
+		2F98A6171ABFC8FD000EAFEF /* AWSessionSelectorPresenterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSessionSelectorPresenterTest.m; sourceTree = "<group>"; };
+		2FF93B791ABF454B001DF73E /* asciiwwdc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = asciiwwdc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF93B7D1ABF454B001DF73E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF93B7E1ABF454B001DF73E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FF93B801ABF454B001DF73E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FF93B811ABF454B001DF73E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FF93B831ABF454B001DF73E /* AWSessionSelectorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWSessionSelectorViewController.h; sourceTree = "<group>"; };
+		2FF93B841ABF454B001DF73E /* AWSessionSelectorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWSessionSelectorViewController.m; sourceTree = "<group>"; };
+		2FF93B891ABF454B001DF73E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2FF93B8C1ABF454B001DF73E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2FF93B921ABF454B001DF73E /* asciiwwdcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = asciiwwdcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF93B971ABF454B001DF73E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF93BA61ABF4CAB001DF73E /* AWSessionSelectorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSessionSelectorModel.h; sourceTree = "<group>"; };
+		2FF93BA71ABF4CAB001DF73E /* AWSessionSelectorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSessionSelectorModel.m; sourceTree = "<group>"; };
+		2FF93BAA1ABF4CC4001DF73E /* AWSessionSelectorPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSessionSelectorPresenter.h; sourceTree = "<group>"; };
+		2FF93BAB1ABF4CC4001DF73E /* AWSessionSelectorPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSessionSelectorPresenter.m; sourceTree = "<group>"; };
+		2FF93BAE1ABF523E001DF73E /* AWSessionSelectorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSessionSelectorDelegate.h; sourceTree = "<group>"; };
+		2FF93BAF1ABF523E001DF73E /* AWSessionSelectorDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSessionSelectorDelegate.m; sourceTree = "<group>"; };
+		2FF93BB21ABF52CA001DF73E /* AWSessionSelectorDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSessionSelectorDataSource.h; sourceTree = "<group>"; };
+		2FF93BB31ABF52CA001DF73E /* AWSessionSelectorDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSessionSelectorDataSource.m; sourceTree = "<group>"; };
+		2FF93BB61ABF5E37001DF73E /* AWSessionSelectorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSessionSelectorCell.h; sourceTree = "<group>"; };
+		2FF93BB71ABF5E37001DF73E /* AWSessionSelectorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSessionSelectorCell.m; sourceTree = "<group>"; };
+		4E9E237BF7385010DE2D6F45 /* Pods-asciiwwdcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asciiwwdcTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-asciiwwdcTests/Pods-asciiwwdcTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94BF75885478728F3F797A2A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95689396B16B3961ABFE3BA /* libPods-asciiwwdcTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-asciiwwdcTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B6A0F867F122D1780F195C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EAB370DBF57CD287913D37B4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FF93B761ABF454B001DF73E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A271E4A544713D48B2F5053 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF93B8F1ABF454B001DF73E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7F8BC383F12C2CFC975FE8 /* libPods-asciiwwdcTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FF93B701ABF454B001DF73E = {
+			isa = PBXGroup;
+			children = (
+				2FF93B7B1ABF454B001DF73E /* asciiwwdc */,
+				2FF93B951ABF454B001DF73E /* asciiwwdcTests */,
+				2FF93B7A1ABF454B001DF73E /* Products */,
+				756350A44181DD909434B901 /* Pods */,
+				49C87681D4DBCEF5160449A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2FF93B7A1ABF454B001DF73E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FF93B791ABF454B001DF73E /* asciiwwdc.app */,
+				2FF93B921ABF454B001DF73E /* asciiwwdcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FF93B7B1ABF454B001DF73E /* asciiwwdc */ = {
+			isa = PBXGroup;
+			children = (
+				2FF93B801ABF454B001DF73E /* AppDelegate.h */,
+				2FF93B811ABF454B001DF73E /* AppDelegate.m */,
+				2F98A6131ABFB74B000EAFEF /* AWNetworkService.h */,
+				2F98A6141ABFB74B000EAFEF /* AWNetworkService.m */,
+				2F98A60F1ABFB4FE000EAFEF /* AWSessionData.h */,
+				2F98A6101ABFB4FE000EAFEF /* AWSessionData.m */,
+				2FF93BB61ABF5E37001DF73E /* AWSessionSelectorCell.h */,
+				2FF93BB71ABF5E37001DF73E /* AWSessionSelectorCell.m */,
+				2FF93BB21ABF52CA001DF73E /* AWSessionSelectorDataSource.h */,
+				2FF93BB31ABF52CA001DF73E /* AWSessionSelectorDataSource.m */,
+				2FF93BAE1ABF523E001DF73E /* AWSessionSelectorDelegate.h */,
+				2FF93BAF1ABF523E001DF73E /* AWSessionSelectorDelegate.m */,
+				2FF93BA61ABF4CAB001DF73E /* AWSessionSelectorModel.h */,
+				2FF93BA71ABF4CAB001DF73E /* AWSessionSelectorModel.m */,
+				2FF93BAA1ABF4CC4001DF73E /* AWSessionSelectorPresenter.h */,
+				2FF93BAB1ABF4CC4001DF73E /* AWSessionSelectorPresenter.m */,
+				2FF93B831ABF454B001DF73E /* AWSessionSelectorViewController.h */,
+				2FF93B841ABF454B001DF73E /* AWSessionSelectorViewController.m */,
+				2FF93B891ABF454B001DF73E /* Images.xcassets */,
+				2FF93B8B1ABF454B001DF73E /* LaunchScreen.xib */,
+				2FF93B7C1ABF454B001DF73E /* Supporting Files */,
+			);
+			path = asciiwwdc;
+			sourceTree = "<group>";
+		};
+		2FF93B7C1ABF454B001DF73E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FF93B7D1ABF454B001DF73E /* Info.plist */,
+				2FF93B7E1ABF454B001DF73E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FF93B951ABF454B001DF73E /* asciiwwdcTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F98A60D1ABFB144000EAFEF /* ASSessionSelectorModelTest.m */,
+				2F98A6171ABFC8FD000EAFEF /* AWSessionSelectorPresenterTest.m */,
+				2FF93B961ABF454B001DF73E /* Supporting Files */,
+			);
+			path = asciiwwdcTests;
+			sourceTree = "<group>";
+		};
+		2FF93B961ABF454B001DF73E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FF93B971ABF454B001DF73E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49C87681D4DBCEF5160449A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94BF75885478728F3F797A2A /* libPods.a */,
+				D95689396B16B3961ABFE3BA /* libPods-asciiwwdcTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		756350A44181DD909434B901 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3B6A0F867F122D1780F195C /* Pods.debug.xcconfig */,
+				EAB370DBF57CD287913D37B4 /* Pods.release.xcconfig */,
+				4E9E237BF7385010DE2D6F45 /* Pods-asciiwwdcTests.debug.xcconfig */,
+				2000A8A4B47E98203A0ED15F /* Pods-asciiwwdcTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FF93B781ABF454B001DF73E /* asciiwwdc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF93B9C1ABF454B001DF73E /* Build configuration list for PBXNativeTarget "asciiwwdc" */;
+			buildPhases = (
+				296DD3B6AF4B8123D7DD31BF /* Check Pods Manifest.lock */,
+				2FF93B751ABF454B001DF73E /* Sources */,
+				2FF93B761ABF454B001DF73E /* Frameworks */,
+				2FF93B771ABF454B001DF73E /* Resources */,
+				51A2C3BAA4C26FFDBB92836D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = asciiwwdc;
+			productName = asciiwwdc;
+			productReference = 2FF93B791ABF454B001DF73E /* asciiwwdc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FF93B911ABF454B001DF73E /* asciiwwdcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF93B9F1ABF454B001DF73E /* Build configuration list for PBXNativeTarget "asciiwwdcTests" */;
+			buildPhases = (
+				6443FB962D50A0233087667B /* Check Pods Manifest.lock */,
+				2FF93B8E1ABF454B001DF73E /* Sources */,
+				2FF93B8F1ABF454B001DF73E /* Frameworks */,
+				2FF93B901ABF454B001DF73E /* Resources */,
+				3609886588C9F723DCC1214B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FF93B941ABF454B001DF73E /* PBXTargetDependency */,
+			);
+			name = asciiwwdcTests;
+			productName = asciiwwdcTests;
+			productReference = 2FF93B921ABF454B001DF73E /* asciiwwdcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FF93B711ABF454B001DF73E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Fueled By Soda";
+				TargetAttributes = {
+					2FF93B781ABF454B001DF73E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					2FF93B911ABF454B001DF73E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 2FF93B781ABF454B001DF73E;
+					};
+				};
+			};
+			buildConfigurationList = 2FF93B741ABF454B001DF73E /* Build configuration list for PBXProject "asciiwwdc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FF93B701ABF454B001DF73E;
+			productRefGroup = 2FF93B7A1ABF454B001DF73E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FF93B781ABF454B001DF73E /* asciiwwdc */,
+				2FF93B911ABF454B001DF73E /* asciiwwdcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FF93B771ABF454B001DF73E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF93B8D1ABF454B001DF73E /* LaunchScreen.xib in Resources */,
+				2FF93B8A1ABF454B001DF73E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF93B901ABF454B001DF73E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		296DD3B6AF4B8123D7DD31BF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3609886588C9F723DCC1214B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-asciiwwdcTests/Pods-asciiwwdcTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51A2C3BAA4C26FFDBB92836D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6443FB962D50A0233087667B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FF93B751ABF454B001DF73E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F98A6151ABFB74B000EAFEF /* AWNetworkService.m in Sources */,
+				2FF93B851ABF454B001DF73E /* AWSessionSelectorViewController.m in Sources */,
+				2FF93B821ABF454B001DF73E /* AppDelegate.m in Sources */,
+				2F98A6111ABFB4FE000EAFEF /* AWSessionData.m in Sources */,
+				2FF93BB01ABF523E001DF73E /* AWSessionSelectorDelegate.m in Sources */,
+				2FF93BB41ABF52CA001DF73E /* AWSessionSelectorDataSource.m in Sources */,
+				2FF93BAC1ABF4CC4001DF73E /* AWSessionSelectorPresenter.m in Sources */,
+				2FF93BA81ABF4CAB001DF73E /* AWSessionSelectorModel.m in Sources */,
+				2FF93B7F1ABF454B001DF73E /* main.m in Sources */,
+				2FF93BB81ABF5E37001DF73E /* AWSessionSelectorCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF93B8E1ABF454B001DF73E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F98A6161ABFB74B000EAFEF /* AWNetworkService.m in Sources */,
+				2FF93BB51ABF52CA001DF73E /* AWSessionSelectorDataSource.m in Sources */,
+				2FF93BA91ABF4CAB001DF73E /* AWSessionSelectorModel.m in Sources */,
+				2FF93BB91ABF5E37001DF73E /* AWSessionSelectorCell.m in Sources */,
+				2F98A6181ABFC8FD000EAFEF /* AWSessionSelectorPresenterTest.m in Sources */,
+				2FF93BB11ABF523E001DF73E /* AWSessionSelectorDelegate.m in Sources */,
+				2F98A60E1ABFB144000EAFEF /* ASSessionSelectorModelTest.m in Sources */,
+				2F98A6121ABFB4FE000EAFEF /* AWSessionData.m in Sources */,
+				2FF93BAD1ABF4CC4001DF73E /* AWSessionSelectorPresenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FF93B941ABF454B001DF73E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FF93B781ABF454B001DF73E /* asciiwwdc */;
+			targetProxy = 2FF93B931ABF454B001DF73E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FF93B8B1ABF454B001DF73E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FF93B8C1ABF454B001DF73E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FF93B9A1ABF454B001DF73E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FF93B9B1ABF454B001DF73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FF93B9D1ABF454B001DF73E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B6A0F867F122D1780F195C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = asciiwwdc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FF93B9E1ABF454B001DF73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB370DBF57CD287913D37B4 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = asciiwwdc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2FF93BA01ABF454B001DF73E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E9E237BF7385010DE2D6F45 /* Pods-asciiwwdcTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = asciiwwdcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/asciiwwdc.app/asciiwwdc";
+			};
+			name = Debug;
+		};
+		2FF93BA11ABF454B001DF73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2000A8A4B47E98203A0ED15F /* Pods-asciiwwdcTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = asciiwwdcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/asciiwwdc.app/asciiwwdc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FF93B741ABF454B001DF73E /* Build configuration list for PBXProject "asciiwwdc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF93B9A1ABF454B001DF73E /* Debug */,
+				2FF93B9B1ABF454B001DF73E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF93B9C1ABF454B001DF73E /* Build configuration list for PBXNativeTarget "asciiwwdc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF93B9D1ABF454B001DF73E /* Debug */,
+				2FF93B9E1ABF454B001DF73E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF93B9F1ABF454B001DF73E /* Build configuration list for PBXNativeTarget "asciiwwdcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF93BA01ABF454B001DF73E /* Debug */,
+				2FF93BA11ABF454B001DF73E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FF93B711ABF454B001DF73E /* Project object */;
+}
