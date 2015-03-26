@@ -25,9 +25,9 @@
 - (void)setUp {
     [super setUp];
     
-    session1 = [[AWSessionData alloc] initWithNumber:1 title:@"alpha" desciption:@"A" year:2015 track:@"track1"];
-    session2 = [[AWSessionData alloc] initWithNumber:2 title:@"beta" desciption:@"B" year:2015 track:@"track1"];
-    session3 = [[AWSessionData alloc] initWithNumber:3 title:@"charlie" desciption:@"C" year:2014 track:@"track1"];
+    session1 = [[AWSessionData alloc] initWithNumber:1 title:@"alpha" sessionDescription:@"A" year:2015 track:@"track1"];
+    session2 = [[AWSessionData alloc] initWithNumber:2 title:@"beta" sessionDescription:@"B" year:2015 track:@"track1"];
+    session3 = [[AWSessionData alloc] initWithNumber:3 title:@"charlie" sessionDescription:@"C" year:2014 track:@"track1"];
 }
 
 - (void)tearDown {
@@ -38,20 +38,6 @@
     AWSessionSelectorModel *testObject = [[AWSessionSelectorModel alloc] initWithNetworkService:networkService];
     XCTAssertNil(testObject.sessions);
 }
-
-//- (void)testWhenModelAsksNetworkServiceForSessionsDataThenSessionsIsUpdateCorrectly {
-//    networkService = mock(AWNetworkService.class);
-//    
-//    XCTestExpectation *completionBlockExpectation = [self expectationWithDescription:@"completion block"];
-//    
-//    [when([networkService getSessionsWithCompletion:any()]) thenDoWithInvocation:^(NSInvocation *invocation) {
-//        AWNetworkServiceBlock completionBlock;
-//        [invocation getArgument:&completionBlock atIndex:2];
-//        completionBlock(true, nil);
-//    }];
-//    
-//    AWSessionSelectorModel *testObject = [[AWSessionSelectorModel alloc] initWithNetworkService:networkService];
-//}
 
 - (void)testWhenModelAsksNetworkServiceForSessionsDataAndOneYearOfDataReturnedThenSessionsIsUpdateCorrectly {
     networkService = mock(AWNetworkService.class);

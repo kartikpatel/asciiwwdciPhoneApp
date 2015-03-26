@@ -13,6 +13,7 @@
 		2F98A6151ABFB74B000EAFEF /* AWNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F98A6141ABFB74B000EAFEF /* AWNetworkService.m */; };
 		2F98A6161ABFB74B000EAFEF /* AWNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F98A6141ABFB74B000EAFEF /* AWNetworkService.m */; };
 		2F98A6181ABFC8FD000EAFEF /* AWSessionSelectorPresenterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F98A6171ABFC8FD000EAFEF /* AWSessionSelectorPresenterTest.m */; };
+		2FD57F1D1AC38B02005BF56D /* AWSessionSelectorDataSourceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD57F1C1AC38B02005BF56D /* AWSessionSelectorDataSourceTest.m */; };
 		2FF93B7F1ABF454B001DF73E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF93B7E1ABF454B001DF73E /* main.m */; };
 		2FF93B821ABF454B001DF73E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF93B811ABF454B001DF73E /* AppDelegate.m */; };
 		2FF93B851ABF454B001DF73E /* AWSessionSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF93B841ABF454B001DF73E /* AWSessionSelectorViewController.m */; };
@@ -50,6 +51,7 @@
 		2F98A6131ABFB74B000EAFEF /* AWNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWNetworkService.h; sourceTree = "<group>"; };
 		2F98A6141ABFB74B000EAFEF /* AWNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWNetworkService.m; sourceTree = "<group>"; };
 		2F98A6171ABFC8FD000EAFEF /* AWSessionSelectorPresenterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSessionSelectorPresenterTest.m; sourceTree = "<group>"; };
+		2FD57F1C1AC38B02005BF56D /* AWSessionSelectorDataSourceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSessionSelectorDataSourceTest.m; sourceTree = "<group>"; };
 		2FF93B791ABF454B001DF73E /* asciiwwdc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = asciiwwdc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF93B7D1ABF454B001DF73E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FF93B7E1ABF454B001DF73E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				2F98A60D1ABFB144000EAFEF /* ASSessionSelectorModelTest.m */,
+				2FD57F1C1AC38B02005BF56D /* AWSessionSelectorDataSourceTest.m */,
 				2F98A6171ABFC8FD000EAFEF /* AWSessionSelectorPresenterTest.m */,
 				2FF93B961ABF454B001DF73E /* Supporting Files */,
 			);
@@ -382,6 +385,7 @@
 				2FF93BB91ABF5E37001DF73E /* AWSessionSelectorCell.m in Sources */,
 				2F98A6181ABFC8FD000EAFEF /* AWSessionSelectorPresenterTest.m in Sources */,
 				2FF93BB11ABF523E001DF73E /* AWSessionSelectorDelegate.m in Sources */,
+				2FD57F1D1AC38B02005BF56D /* AWSessionSelectorDataSourceTest.m in Sources */,
 				2F98A60E1ABFB144000EAFEF /* ASSessionSelectorModelTest.m in Sources */,
 				2F98A6121ABFB4FE000EAFEF /* AWSessionData.m in Sources */,
 				2FF93BAD1ABF4CC4001DF73E /* AWSessionSelectorPresenter.m in Sources */,

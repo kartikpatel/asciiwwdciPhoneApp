@@ -22,14 +22,20 @@
     [super loadView];
     
     UITableView *view = [[UITableView alloc] initWithFrame:self.view.bounds];
-    [view registerClass:[AWSessionSelectorCell class] forCellReuseIdentifier:[[AWSessionSelectorCell class] description]];
+    view.tableFooterView = [[UIView alloc] init];
+    [view registerClass:AWSessionSelectorCell.class forCellReuseIdentifier:NSStringFromClass(AWSessionSelectorCell.class)];
+    view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     [self.view addSubview:view];
+    
     id<UITableViewDelegate> delegate = [[AWSessionSelectorDelegate alloc] init];
     view.delegate = delegate;
+    
     id<UITableViewDataSource> dataSource = [[AWSessionSelectorDataSource alloc] init];
     view.dataSource = dataSource;
+    
     AWNetworkService *networkService = [[AWNetworkService alloc] init];
     AWSessionSelectorModel *model = [[AWSessionSelectorModel alloc] initWithNetworkService:networkService];
+    
     [AWSessionSelectorPresenter bindWithModel:model view:view delegate:delegate dataSource:dataSource];
 }
 

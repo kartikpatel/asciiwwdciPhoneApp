@@ -10,11 +10,11 @@
 
 @implementation AWSessionData
 
-- (instancetype)initWithNumber:(NSInteger)number title:(NSString *)title desciption:(NSString *)desciption year:(NSInteger)year track:(NSString *)track {
+- (instancetype)initWithNumber:(NSInteger)number title:(NSString *)title sessionDescription:(NSString *)sessionDescription year:(NSInteger)year track:(NSString *)track {
     if (self = [super init]) {
         _number = number;
         _title = title;
-        _desciption = desciption;
+        _sessionDescription = sessionDescription;
         _year = year;
         _track = track;
     }

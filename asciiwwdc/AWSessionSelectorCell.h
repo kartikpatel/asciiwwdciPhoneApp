@@ -10,4 +10,6 @@
 
 @interface AWSessionSelectorCell : UITableViewCell
 
+- (void)setNumber:(NSInteger)number title:(NSString *)title description:(NSString *)description track:(NSString *)track ;
+
 @end
