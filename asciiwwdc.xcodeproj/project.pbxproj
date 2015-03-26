@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F56D0311AC3AAF300F0B88F /* AWNetworkServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F56D0301AC3AAF300F0B88F /* AWNetworkServiceTest.m */; };
 		2F98A60E1ABFB144000EAFEF /* ASSessionSelectorModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F98A60D1ABFB144000EAFEF /* ASSessionSelectorModelTest.m */; };
 		2F98A6111ABFB4FE000EAFEF /* AWSessionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F98A6101ABFB4FE000EAFEF /* AWSessionData.m */; };
 		2F98A6121ABFB4FE000EAFEF /* AWSessionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F98A6101ABFB4FE000EAFEF /* AWSessionData.m */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		2000A8A4B47E98203A0ED15F /* Pods-asciiwwdcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asciiwwdcTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-asciiwwdcTests/Pods-asciiwwdcTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F56D0301AC3AAF300F0B88F /* AWNetworkServiceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWNetworkServiceTest.m; sourceTree = "<group>"; };
 		2F98A60D1ABFB144000EAFEF /* ASSessionSelectorModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASSessionSelectorModelTest.m; sourceTree = "<group>"; };
 		2F98A60F1ABFB4FE000EAFEF /* AWSessionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSessionData.h; sourceTree = "<group>"; };
 		2F98A6101ABFB4FE000EAFEF /* AWSessionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSessionData.m; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				2F98A60D1ABFB144000EAFEF /* ASSessionSelectorModelTest.m */,
+				2F56D0301AC3AAF300F0B88F /* AWNetworkServiceTest.m */,
 				2FD57F1C1AC38B02005BF56D /* AWSessionSelectorDataSourceTest.m */,
 				2F98A6171ABFC8FD000EAFEF /* AWSessionSelectorPresenterTest.m */,
 				2FF93B961ABF454B001DF73E /* Supporting Files */,
@@ -389,6 +392,7 @@
 				2F98A60E1ABFB144000EAFEF /* ASSessionSelectorModelTest.m in Sources */,
 				2F98A6121ABFB4FE000EAFEF /* AWSessionData.m in Sources */,
 				2FF93BAD1ABF4CC4001DF73E /* AWSessionSelectorPresenter.m in Sources */,
+				2F56D0311AC3AAF300F0B88F /* AWNetworkServiceTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
